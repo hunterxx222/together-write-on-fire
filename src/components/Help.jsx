@@ -32,28 +32,27 @@ export default class Help extends React.Component {
         <Space l/>
         <div className="content">
 
-          <h1>Giúp đỡ</h1>
-          <h2>What's the point?</h2>
+          {/*<h1>Giúp đỡ</h1>*/}
+          <h2>Write on Fire là gì?</h2>
           <p>
-            Bạn đang suy nghĩ cần phải làm gì trong đầu? Bạn muốn thực hiện nó nhưng không muốn bắt đầu?
-            🔥Write on Fire 🔥 được thiết kế để giúp bạn bắt đầu. <br/>
+            Bạn luôn suy nghĩ cần phải làm gì?
+            Write on Fire sẽ giúp bạn bắt đầu. <br/><br/>
             Lên kế hoạch trong ngày?<br/>
-            Viết tất cả những gì trong đầu?<br/>
-            Bắt đầu một chiến dịch marketing mới?<br/>
-            Bắt đầu viết nhé
-
+            Viết tất cả suy nghĩ trong đầu?<br/>
+            Viết nhật ký? <br />
+            Bắt đầu một chiến dịch TikTok marketing?<br/>
+            Thay đổi thế giới, đàm phán hoà bình, chữa ung thư, góp phần đưa Việt Nam trở thành cường quốc với 5 châu?
           </p>
           <p>
-            Because 'tis better to have written and lost, than never to have
-            written at all.
+            <em>Bắt đầu thôi. Đừng suy nghĩ nữa vì nếu bạn dừng viết trong 5 giây, tất cả sẽ bị xoá hết, đốt trong biển lửa 🔥 của sự trì hoãn.</em>
           </p>
 
           <Space m/>
           <WriteButton ghost color="red"/>
 
-          <h2>Có ai đọc được những gì tôi viết không?</h2>
+          <h2>Có ai đọc bài của tôi không?</h2>
           <p>
-            Không có ai đọc được những gì bạn viết.
+            Không.
           </p>
           <h4>Giấy phép</h4>
           <small>GPL-v3 GNU GENERAL PUBLIC LICENSE. <br/> GitHub: https://github.com/hunterxx222/together-write-on-fire</small>

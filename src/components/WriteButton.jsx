@@ -105,7 +105,7 @@ export default class WriteButton extends React.Component {
 }
 
 WriteButton.defaultProps = {
-  label: "Viết hoặc chết ☠️",
+  label: "Viết trong lửa ☠️",
   small: false,
   hidePanel: false,
   limits: {

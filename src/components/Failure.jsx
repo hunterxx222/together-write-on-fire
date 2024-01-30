@@ -16,8 +16,8 @@ const TweetButton = ({ words }) => {
 };
 
 const FacebookButton = ({ words }) => {
-  const href = `https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmaebert.github.io%2Fthemostdangerouswritingapp%2F&quote=I+wrote+${words}+words+using+The+Most+Dangerous+Writing+App+-+until+it+deleted+everything+.+%23MDWA`;
-  const label = `I wrote ${words} words using The Most Dangerous Writing App - until it deleted everything.`;
+const href = `https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwrite.together.vn`;
+const label = `Chia sẻ trên Facebook về việc tôi đã viết được ${words} từ trên Write on Fire cho đến khi nó xoá hết công sức của tôi!`;
   return (
     <a className="facebook" href={href} target="_blank" rel="noopener noreferrer">
       {label}
@@ -41,8 +41,7 @@ const Failure = ({ limit, type, lost, words }) => {
                 ghost
                 noPanel
                 color="white"
-                label="Try
-            Again."
+                label="Thử lại"
                 type={type}
                 limit={limit}
               />

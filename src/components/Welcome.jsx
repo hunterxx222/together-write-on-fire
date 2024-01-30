@@ -46,7 +46,7 @@ const Welcome = () => (
       <Space xl/>
       <WriteButton ghost color="red"/>
     </div>
-    <small className="footer"><em>Sản phẩm bổ trợ cho <a href="http://www.together.vn">www.together.vn</a></em></small>
+    <small className="footer"><em>Sản phẩm bổ trợ cho <a href="http://www.together.vn" target={"_blank"}>www.together.vn</a></em></small>
   </div>
 );
 

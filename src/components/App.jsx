@@ -187,7 +187,7 @@ class WritingApp extends React.Component {
                     small
                     ghost
                     hidePanel
-                    label="Start Again"
+                    label="Bắt đầu lại"
                     {...{ limit, type, hardcore }}
                   />
                 ) : (

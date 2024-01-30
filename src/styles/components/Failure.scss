@@ -84,12 +84,12 @@
         }
     &:after
         {
-        @include icon;
-        content: '\74';
+        //@include icon;
+        content: 'Share';
         display: block;
         position: absolute;
         font-size: $xlarge;
-        left: -60px;
+        left: -120px;
         color: $white;
         bottom: calc(50% - 20px);
         }
