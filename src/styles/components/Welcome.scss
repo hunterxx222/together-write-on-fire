@@ -68,6 +68,11 @@
             margin: -2px 6px 0 0;
         }
     }
+    .footer {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
 }
 
 .logo {
@@ -106,15 +111,17 @@
 
         span:first-child {
             top: -6px;
+            color: $red;
         }
 
         span:nth-child(2) {
             top: 52px;
-            color: $red;
+            color: #51565D;
         }
 
         span:last-child {
             top: 110px;
+            color: $red;
         }
     }
 
@@ -122,9 +129,9 @@
         width: 156px;
         height: 156px;
         background: $red;
-        box-shadow: inset 0px 0px 0px 20px $red, inset 0px 0px 0px 32px $white;
+        //box-shadow: inset 0px 0px 0px 20px $red, inset 0px 0px 0px 32px $white;
         background: url(/images/logo-squared.png) no-repeat center center;
-        background-size: 100px; // this will make sure your image covers the whole div
+        background-size: 156px; // this will make sure your image covers the whole div
     }
 
     &.small {

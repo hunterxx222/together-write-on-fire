@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import WriteButton from "./WriteButton";
 import Space from "./Space";
 import classNames from "classnames";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Banner = () => {
   const [visible, setVisible] = useState(false);
   const [closed, setClosed] = useState(false);
 
-  const innerClasses = classNames("inner", { closed, visible });
+  const innerClasses = classNames("inner", {closed, visible});
 
   useEffect(() => {
     if (!visible) {
@@ -24,28 +24,29 @@ const Banner = () => {
 
 const Welcome = () => (
   <div className="Welcome">
-    <Banner />
+    <Banner/>
     <Link to="/help" className="navButton helpButton">
-      Help
+      Giúp đỡ
     </Link>
-    <Space xl />
+    <Space xl/>
     <div>
       <div className="logo">
         <div className="mark"></div>
         <h1>
-          <span>Plan</span>
-          <span>Dangerously</span>
-          <span>Together</span>
+          <span>🔥Write🔥</span>
+          <span>🔥on🔥</span>
+          <span>🔥Fire🔥</span>
         </h1>
       </div>
-      <Space m />
+      <Space m/>
       <h2>
-        Thiếu dopamine? Ngừng viết, bạn sẽ mất tất cả
-        <i className="caret icon-cursor" />
+        Thiếu dopamine? Ngừng viết, bạn sẽ mất tất cả ☠️
+        <i className="caret icon-cursor"/>
       </h2>
-      <Space xl />
-      <WriteButton ghost color="red" />
+      <Space xl/>
+      <WriteButton ghost color="red"/>
     </div>
+    <small className="footer"><em>Sản phẩm bổ trợ cho <a href="http://www.together.vn">www.together.vn</a></em></small>
   </div>
 );
 

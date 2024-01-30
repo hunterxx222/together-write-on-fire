@@ -17,7 +17,8 @@
         .mark
             {
             width: 90px; height: 90px;
-            box-shadow: inset 0px 0px 0px 12px $red, inset 0px 0px 0px 18px $white;
+            //box-shadow: inset 0px 0px 0px 12px $red, inset 0px 0px 0px 18px $white;
+            background-size: 90px; // this will make sure your image covers the whole div
             }
         h1
             {
