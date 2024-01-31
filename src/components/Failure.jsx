@@ -22,10 +22,10 @@ const Failure = ({ limit, type, lost, words }) => {
         <CSSTransition classNames="failure" timeout={{ enter: 500, exit: 100 }}>
           <div className="failure" key="failScreen">
             <Link to="/help" className="navButton helpButton white">
-              Help
+              Giúp đỡ
             </Link>
             <div className="inner">
-              <h3>Bạn thất bại.</h3>
+              <h3>Bạn thất bại</h3>
               <FacebookButton words={words} />
               <WriteButton
                 ghost

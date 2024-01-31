@@ -52,7 +52,7 @@ export default class Help extends React.Component {
 
           <h2>Có ai đọc bài của tôi không?</h2>
           <p>
-            Không.
+            Không. Chúng tôi không lưu giữ bất kỳ thông tin nào của bạn trên database.
           </p>
           <h4>Giấy phép</h4>
           <small>GPL-v3 GNU GENERAL PUBLIC LICENSE. <br/> GitHub: https://github.com/hunterxx222/together-write-on-fire</small>
