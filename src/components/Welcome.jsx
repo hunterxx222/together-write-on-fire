@@ -40,7 +40,7 @@ const Welcome = () => (
       </div>
       <Space m/>
       <h2>
-        Thiếu dopamine? Ngừng viết, bạn sẽ mất tất cả ☠️
+        Thiếu dopamine? <br/> Ngừng viết, bạn sẽ mất tất cả ☠️
         <i className="caret icon-cursor"/>
       </h2>
       <Space xl/>
